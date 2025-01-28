@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/dashboard/positions/page.js", "app/dashboard/history/page.js", "components/ui/alert-dialog.js", "components/layout/user-nav.js", "components/layout/sidebar-nav/nav-item.js", "components/layout/sidebar-nav/nav-group.js", "components/layout/sidebar-nav.js", "components/layout/mobile-nav.js", "app/page.js"],
+  "exclude": ["node_modules"]
+}
