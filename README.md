@@ -21,3 +21,4 @@ Brief description of the project and its purpose.
 1. Clone the repository:
    ```bash
    https://github.com/RajeshPatgar/VectriumVentures.git
+2. Copy the HTTPS link, and clone the repository in your local storage.
